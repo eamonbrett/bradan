@@ -157,7 +157,13 @@ reviews/weekly/       # Weekly reviews
 
 **Configured MCP Servers:**
 - **gworkspace-mcp**: Google Calendar, Gmail, Drive
-- **slack-mcp**: Slack (optional - requires custom setup)
+- **playground-slack-mcp**: Slack (@shopify-internal/slack-mcp)
+- **vault-mcp**: Vault search
+- **revenue-mcp**: Salesforce & Salesloft
+- **support-core**: Support tools
+- **data-portal-mcp**: Data warehouse
+- **vault-set-search**: Internal docs
+- **dev-mcp**: Dev environment
 
 **What This Enables:**
 - ✅ Actual meetings from Google Calendar

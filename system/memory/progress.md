@@ -75,7 +75,13 @@ Output: Daily file + meeting stubs
 
 **MCP Servers Configured:**
 - **gworkspace-mcp**: Google Calendar, Gmail, Drive
-- **slack-mcp**: Slack integration (optional - requires custom setup)
+- **playground-slack-mcp**: Slack integration (@shopify-internal/slack-mcp)
+- **vault-mcp**: Vault search and data
+- **revenue-mcp**: Salesforce, Salesloft, account enrichment
+- **support-core**: Support tickets and merchant data
+- **data-portal-mcp**: Shopify data warehouse queries
+- **vault-set-search**: Internal documentation search
+- **dev-mcp**: Shopify dev environment integration
 
 ### File Structure
 
