@@ -1,6 +1,6 @@
-# Quick Start
+# Bradán - Quick Start
 
-**One-page reference** - print this!
+**AI-powered daily assistant** | One-page reference - print this!
 
 ---
 

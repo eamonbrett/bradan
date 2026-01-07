@@ -1,6 +1,10 @@
-# Cursor Task Management
+# Bradán
 
-AI-powered task management system using Claude in Cursor IDE. Automate daily planning, meeting notes, and weekly reviews.
+**AI-powered daily assistant**
+
+Task management system using Claude in Cursor IDE. Automate daily planning, meeting notes, and weekly reviews.
+
+> *Bradán* (Irish: "salmon") - Like the legendary Salmon of Knowledge, Bradán brings instant clarity to your workday.
 
 ## Quick Start
 

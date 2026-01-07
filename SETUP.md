@@ -1,6 +1,6 @@
-# Setup Guide
+# Bradán Setup Guide
 
-Get running in 30 minutes.
+**AI-powered daily assistant** | Get running in 30 minutes.
 
 ---
 
