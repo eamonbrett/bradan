@@ -14,7 +14,10 @@ pip install -r requirements.txt
 
 ## 2. Configure MCP (15 min)
 
-MCP (Model Context Protocol) connects Cursor to Google Calendar.
+MCP (Model Context Protocol) connects Cursor to Google Workspace:
+- **Google Calendar** - Read events and create meeting stubs
+- **Gmail** - Read and prioritize email
+- **Google Drive** - Access meeting notes (e.g., Gemini transcriptions)
 
 ### Edit `~/.cursor/mcp.json`
 
@@ -36,20 +39,31 @@ Create or edit this file:
 
 **Important:** Quit and restart Cursor for MCP to load.
 
-### Optional: Slack & Email Integration
+### First Run: Authenticate
 
-**Note:** Slack and email integration require additional MCP servers that you'll need to set up separately. The core system works great with just Google Calendar.
+On first use, you'll be prompted to authenticate with Google. Grant access to:
+- Calendar (read)
+- Gmail (read)
+- Drive (read)
+
+### Optional: Slack Integration
+
+**Note:** Slack integration requires additional setup. The core system works great with Google Workspace only.
 
 **Slack Options:**
 1. **Build your own** - Create a custom MCP server using Slack's API
 2. **Use Slack's built-in Cursor integration** - Different from MCP, but provides some automation
 3. **Wait for public MCP servers** - Community is actively building these
 
-**Email Options:**
-1. **Gmail via gworkspace-mcp** - The Google Workspace MCP above includes basic Gmail support
-2. **Build custom MCP** - For advanced email processing
+### Optional: Gemini for Meeting Notes
 
-For now, the system works best with **Google Calendar only**. Slack/email features are optional enhancements.
+**Highly recommended** for automated meeting transcription:
+
+1. **Enable Google Meet recording**
+2. **Turn on Gemini in Google Workspace** - Automatic meeting summaries
+3. **Bradán reads from Drive** - Meeting notes auto-populate from Gemini transcriptions
+
+This eliminates manual note-taking during meetings - Gemini handles transcription, Bradán organizes it.
 
 ---
 

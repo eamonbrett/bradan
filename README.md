@@ -13,7 +13,11 @@ Task management system using Claude in Cursor IDE. Automate daily planning, meet
 ### Prerequisites
 - [Cursor IDE](https://cursor.com) - Required
 - Python 3.8+
-- Google Workspace account (for calendar integration)
+- Google Workspace account (Calendar, Gmail, Drive)
+
+### Optional Enhancements
+- **Gemini** (Google Workspace add-on) - Automated meeting transcription
+- **Slack MCP** - For Slack message prioritization (requires custom setup)
 
 ### Install
 
@@ -39,8 +43,10 @@ You'll get a daily file with your calendar, priorities, and meeting notes - auto
 ### Daily Automation
 - **"Good morning"** → Generates daily file with calendar and priorities
 - **Calendar integration** → Real Google Calendar events auto-populate
+- **Gmail integration** → Email reading and prioritization included
 - **Meeting stubs** → Pre-filled with attendees and links
-- **Priority inbox** → Optional email + Slack aggregation (requires additional setup)
+- **Gemini meeting notes** → Optional: Auto-import transcriptions from Google Meet
+- **Priority inbox** → Email aggregation (Slack requires additional setup)
 
 ### Weekly Planning
 - **Monday:** Auto-generate weekly plan from last week
