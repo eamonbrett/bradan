@@ -1,0 +1,228 @@
+# Task Management System - Git Ignore Template
+# Copy this to .gitignore before creating GitHub repository
+
+# ====================
+# PERSONAL FILES (Don't Share)
+# ====================
+
+# Daily files (except templates and samples)
+daily/*.md
+!daily/template-*.md
+!daily/*-SAMPLE.md
+
+# Meeting notes (except templates and samples)
+meetings/*.md
+!meetings/template-*.md
+!meetings/*-SAMPLE.md
+
+# Weekly plans (except templates)
+weekly-plans/*.md
+!weekly-plans/template-*.md
+
+# Weekly summaries (except samples)
+weekly-summaries/*.md
+!weekly-summaries/*-SAMPLE.md
+
+# Decisions (keep template and samples only)
+decisions/*.md
+!decisions/README.md
+!decisions/template-*.md
+!decisions/*-SAMPLE.md
+
+# Inbox (all personal)
+inbox/*.md
+
+# Reviews (except templates)
+reviews/*.md
+!reviews/template-*.md
+
+# Projects (except templates and active project dashboard)
+projects/*.md
+!projects/template-*.md
+!projects/ACTIVE_PROJECTS-TEMPLATE.md
+
+# ====================
+# PERSONAL CONTEXT
+# ====================
+
+# Memory Bank - Keep templates, exclude personal context
+memory-bank/activeContext.md
+memory-bank/progress.md
+# Keep these but genericize first:
+# memory-bank/projectbrief.md
+# memory-bank/productContext.md
+# memory-bank/systemPatterns.md
+# memory-bank/techContext.md
+
+# Career development (all personal)
+career-development/
+
+# Analysis (personal data)
+analysis/
+
+# ====================
+# ARCHIVES (All Personal)
+# ====================
+
+archive/
+
+# ====================
+# LOGS AND TEMP FILES
+# ====================
+
+# Log files
+*.log
+automation/automation.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment files
+.env
+.env.local
+config.local.py
+
+# ====================
+# IDE AND SYSTEM FILES
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Cursor
+.cursor/*
+!.cursor/rules/
+.cursor/rules/*
+!.cursor/rules/journal.mdc
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*~
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ====================
+# SENSITIVE DATA
+# ====================
+
+# API keys and tokens (just in case)
+**/secrets.json
+**/credentials.json
+**/.credentials/
+**/token.json
+
+# Slack tokens
+slack-tokens.json
+
+# Google credentials
+client_secret*.json
+token*.json
+
+# ====================
+# BUILD AND TEST
+# ====================
+
+# Test outputs
+test_output/
+*.test
+*.spec
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ====================
+# DOCUMENTATION (Selectively)
+# ====================
+
+# Keep implementation docs but exclude personal notes
+docs/personal/*
+
+# ====================
+# OPTIONAL: KEEP THESE AS SAMPLES
+# ====================
+
+# If you want to include sample files, create them with -SAMPLE suffix:
+# daily/2025-11-05-SAMPLE.md
+# meetings/2025-11-05-team-sync-SAMPLE.md
+# decisions/2025-10-example-decision-SAMPLE.md
+# weekly-summaries/weekly-summary-2025-11-04-SAMPLE.md
+
+# ====================
+# NOTES
+# ====================
+
+# Before sharing:
+# 1. Copy this to .gitignore
+# 2. Review all files that will be committed: git status
+# 3. Search for personal info: grep -r "your-email@" .
+# 4. Create sample files with -SAMPLE suffix
+# 5. Genericize memory-bank files
+# 6. Test: git add . && git status (review what's being added)
+

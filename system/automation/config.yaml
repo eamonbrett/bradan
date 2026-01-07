@@ -1,0 +1,36 @@
+# Task Management Automation Configuration
+
+calendar:
+  primary_calendar: "primary"
+  timezone: "America/New_York"
+  use_mcp: true
+  fallback_to_sample: true
+
+templates:
+  daily_template: "system/templates/daily.md"
+  meeting_template: "system/templates/meeting-v2.md"
+
+paths:
+  daily_dir: "work/daily"
+  meetings_dir: "work/meetings"
+
+automation:
+  run_time: "07:00"
+  check_existing_files: true
+  create_meeting_stubs: true
+
+weekly_summary:
+  enabled: true
+  run_time: "07:00"
+  run_day: 1  # Monday
+  weeks_to_include: 1
+  output_directory: "weekly-summaries"
+
+logging:
+  level: "INFO"
+  file: "automation/automation.log"
+
+# MCP Settings (when available)
+mcp:
+  server_url: "localhost:3000"  # Adjust as needed
+  timeout: 30
