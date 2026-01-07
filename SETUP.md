@@ -36,28 +36,20 @@ Create or edit this file:
 
 **Important:** Quit and restart Cursor for MCP to load.
 
-### Optional: Slack Integration
+### Optional: Slack & Email Integration
 
-Add to the same `mcp.json`:
+**Note:** Slack and email integration require additional MCP servers that you'll need to set up separately. The core system works great with just Google Calendar.
 
-```json
-{
-  "mcpServers": {
-    "gworkspace-mcp": { ... },
-    "playground-slack-mcp": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "github:shopify-playground/slack-mcp"],
-      "env": {
-        "SLACK_BOT_TOKEN": "xoxb-your-token",
-        "SLACK_USER_TOKEN": "xoxp-your-token"
-      }
-    }
-  }
-}
-```
+**Slack Options:**
+1. **Build your own** - Create a custom MCP server using Slack's API
+2. **Use Slack's built-in Cursor integration** - Different from MCP, but provides some automation
+3. **Wait for public MCP servers** - Community is actively building these
 
-Get tokens: [api.slack.com/apps](https://api.slack.com/apps)
+**Email Options:**
+1. **Gmail via gworkspace-mcp** - The Google Workspace MCP above includes basic Gmail support
+2. **Build custom MCP** - For advanced email processing
+
+For now, the system works best with **Google Calendar only**. Slack/email features are optional enhancements.
 
 ---
 
