@@ -157,7 +157,7 @@ reviews/weekly/       # Weekly reviews
 
 **Configured MCP Servers:**
 - **gworkspace-mcp**: Google Calendar, Gmail, Drive
-- **playground-slack-mcp**: Slack (optional)
+- **slack-mcp**: Slack (optional - requires custom setup)
 
 **What This Enables:**
 - ✅ Actual meetings from Google Calendar

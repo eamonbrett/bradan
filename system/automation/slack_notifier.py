@@ -2,7 +2,10 @@
 """
 Slack Notification Module for Task Management System
 
-This module provides Slack notification functionality via the playground-slack-mcp server.
+This module provides Slack notification functionality via a Slack MCP server.
+
+Note: Requires a Slack MCP server to be configured in ~/.cursor/mcp.json
+This is optional - the system works fine without Slack integration.
 All notifications are sent as personal DMs to the user.
 
 Designed to be called from Cursor/Claude environment where MCP functions are available.
@@ -572,7 +575,7 @@ It's Friday afternoon - time to reflect on the week and prep for next week.
         """Prepare message to be sent via Slack MCP.
         
         This returns the data structure that Claude should use to call
-        the playground-slack-mcp send message function.
+        your configured Slack MCP send message function.
         
         Args:
             message: Formatted message to send
@@ -583,7 +586,7 @@ It's Friday afternoon - time to reflect on the week and prep for next week.
         return {
             'recipient': self.user_id,
             'message': message,
-            'mcp_function': 'mcp_playground-slack-mcp_slack_send_message',
+            'mcp_function': 'your-slack-mcp_send_message',  # Replace with your Slack MCP name
             'note': 'Claude should call the Slack MCP function with this message'
         }
 

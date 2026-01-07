@@ -147,7 +147,7 @@ Take 20 minutes to complete your weekly review and reflect on the week.
 """
 
 # Send to Slack (using MCP)
-# Claude calls: mcp_playground-slack-mcp_slack_send_message
+# Claude calls: [your-slack-mcp]_send_message (optional - if Slack configured)
 ```
 
 ---

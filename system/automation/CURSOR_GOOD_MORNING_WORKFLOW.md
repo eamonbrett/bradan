@@ -55,7 +55,7 @@ Parameters:
 
 **Call MCP Tool:**
 ```
-Tool: mcp_playground-slack-mcp_slack_my_messages
+Tool: [your-slack-mcp]_get_messages (optional - requires Slack MCP setup)
 Parameters:
   after: "{yesterday's date in YYYY-MM-DD}"
   count: 100
@@ -302,7 +302,7 @@ summary = inbox.generate_summary(
 
 ✅ Calendar integration (gworkspace-mcp)  
 ✅ Gmail integration (gworkspace-mcp)  
-✅ Slack integration (playground-slack-mcp)  
+✅ Slack integration (optional - requires custom Slack MCP)  
 ✅ Daily file generation (cursor_generate_daily.py)  
 ✅ Priority inbox (priority_inbox.py)  
 ✅ Gemini note search (Drive MCP)  

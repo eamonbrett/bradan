@@ -33,15 +33,15 @@ def check_mcp_config():
         else:
             print("   ❌ gworkspace-mcp NOT configured")
         
-        # Check for playground-slack-mcp
-        if 'playground-slack-mcp' in servers:
-            print("   ✅ playground-slack-mcp configured")
-            slack_config = servers['playground-slack-mcp']
+        # Check for slack-mcp (optional)
+        if 'slack-mcp' in servers:
+            print("   ✅ slack-mcp configured")
+            slack_config = servers['slack-mcp']
             print(f"      Type: {slack_config.get('type')}")
             has_token = bool(slack_config.get('env', {}).get('SLACK_TOKEN'))
             print(f"      Has Token: {has_token}")
         else:
-            print("   ⚠️  playground-slack-mcp NOT configured")
+            print("   ⚠️  slack-mcp NOT configured (optional)")
         
         return True
         

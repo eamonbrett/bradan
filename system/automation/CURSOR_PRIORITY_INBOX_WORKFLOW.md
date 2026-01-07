@@ -37,7 +37,7 @@ Use `mcp_gworkspace-mcp_read_mail` to get recent emails:
 
 ## Step 2: Fetch Slack Messages
 
-Use `mcp_playground-slack-mcp_slack_my_messages` to get recent Slack activity:
+Use your Slack MCP's message retrieval function (if configured) to get recent Slack activity:
 
 ```python
 # Default parameters:
@@ -138,7 +138,7 @@ from automation.priority_inbox import create_priority_inbox_notification
 notification_text = create_priority_inbox_notification(summary)
 
 # Then use MCP to send
-mcp_playground-slack-mcp_slack_send_message(
+[your-slack-mcp]_send_message(
     recipient="me",
     message=notification_text
 )
@@ -177,7 +177,7 @@ AI:
 1. Calls mcp_gworkspace-mcp_read_mail (last 24h, max 50)
    → Gets 23 emails
 
-2. Calls mcp_playground-slack-mcp_slack_my_messages (last 24h, max 100)
+2. Calls Slack MCP message function (if configured - last 24h, max 100)
    → Gets 34 Slack messages
 
 3. Processes with priority_inbox.py:

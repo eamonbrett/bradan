@@ -75,7 +75,7 @@ Output: Daily file + meeting stubs
 
 **MCP Servers Configured:**
 - **gworkspace-mcp**: Google Calendar, Gmail, Drive
-- **playground-slack-mcp**: Slack integration (optional)
+- **slack-mcp**: Slack integration (optional - requires custom setup)
 
 ### File Structure
 
