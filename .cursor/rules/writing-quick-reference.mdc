@@ -1,0 +1,102 @@
+---
+description: "Quick reference for generating documents in Eamon's style"
+alwaysApply: false
+---
+
+# Writing Quick Reference
+
+## Before Writing Any Document
+
+### 1. Identify Audience
+- **Executive (VP/Director):** <100 lines, strategic summary, links to detail
+- **Manager/Lead:** 100-200 lines, context + tactics
+- **IC/Collaborator:** 200+ lines, full detail embedded
+
+### 2. Check Tone
+- ✅ Use: "important", "relevant", "ongoing", "pending"
+- ❌ Never: "CRITICAL", "HIGH PRIORITY", "urgent" (unless life-threatening)
+- ✅ Irish pragmatism: practical, grounded, no drama
+
+### 3. Structure Document
+```markdown
+# Title
+
+**Date:** YYYY-MM-DD  
+**Type:** [[Type]]  
+**Participants:** [[Name]]  
+**Related:** [[Project]]  
+**Status:** Active
+
+---
+
+## 🎯 Quick Reference
+[High-level overview]
+
+---
+
+## 📋 Detailed Content
+[Full context]
+
+---
+
+## ✅ Next Steps
+[Action items with owners]
+```
+
+## Visual Organization
+
+### Emoji Usage
+- 🎯 Strategic focus
+- 📋 Lists/summaries
+- ✅ Complete/working
+- ⚠️ Warnings
+- 🔴 High priority
+- 🟡 Medium priority
+- 🟢 Low priority
+- 🔄 In progress
+- 📊 Data/metrics
+- 💡 Insights
+- 🤝 Collaboration
+
+### Status Indicators
+- ✅ Complete
+- ⚠️ Warning/concern
+- ❌ Blocked/failed
+- 🔴 P1: Urgent
+- 🟡 P2: Important
+- 🟢 P3: Normal
+- ⏳ Pending
+- 🔄 In Progress
+
+## Linking Patterns
+
+### Tag on First Mention
+- People: `[[Fabian Muessig]]`
+- Projects: `[[SE-NTRAL]]`
+- Concepts: `[[Solution Integrity]]`
+- Tools: `[[SE-Assistant]]`
+
+### Cross-Document Links
+- Format: `[[work/projects/FILENAME]]`
+- Include section: `[[work/projects/FILE#section]]`
+
+## Table Patterns
+
+### Status Table
+| Project | Status | Owner | Timeline |
+|---------|--------|-------|----------|
+| [[Project]] | 🟢 On track | [[Owner]] | Target date |
+
+## Key Principles
+
+1. **Comprehensive context** - full background before recommendations
+2. **Framework thinking** - design for reuse and scalability
+3. **Strategic focus** - big picture over tactical execution
+4. **Outcome-focused** - always include success criteria
+5. **Self-aware** - acknowledge limitations and compensation strategies
+
+## Link Accessibility
+
+- ✅ Use: Vault, Google Docs/Drive, Fellow, Figma
+- ❌ Never: Local file paths (`work/projects/file.md`)
+- If no link: "Available from [Owner] if needed"

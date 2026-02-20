@@ -1,0 +1,131 @@
+---
+alwaysApply: true
+description: "Documentation structure, linking conventions, and knowledge graph patterns"
+---
+
+# Documentation Patterns
+
+## Document Structure Standards
+
+### Standard Document Template
+```markdown
+# Document Title
+
+**Date:** YYYY-MM-DD  
+**Type:** [[Meeting Notes]] / [[Project Document]] / [[Workshop Synthesis]]  
+**Participants:** [[Name One]], [[Name Two]]  
+**Related:** [[Project Name]], [[Concept]]  
+**Status:** Active / Complete / Archived
+
+---
+
+## 🎯 Executive Summary / Quick Reference
+[High-level overview for quick scanning]
+
+---
+
+## 📋 Detailed Content
+[Comprehensive sections with full context]
+
+---
+
+## ✅ Action Items / Next Steps
+[Clear ownership and timelines]
+
+---
+
+## 🔗 Related Documents
+- [[work/projects/RELATED-FILE.md]]
+- [[work/meetings/RELATED-MEETING.md]]
+```
+
+## Linking Conventions
+
+### Logseq-Style Tags
+- **Format:** `[[Entity Name]]`
+- **Use for:** People, projects, concepts, tools, locations
+- **First mention:** Always tag on first mention
+- **Subsequent mentions:** Plain text or tag again if creating different context
+
+### Cross-Document References
+- **Format:** `[[work/projects/FILENAME]]` or `[[work/meetings/FILENAME]]`
+- **Use relative paths** from workspace root
+- **Include section anchors** when referencing specific sections: `[[work/projects/FILE#section]]`
+
+### What to Tag
+- ✅ **People:** `[[Fabian Muessig]]`, `[[Olivia Rossetti]]`
+- ✅ **Projects:** `[[SE-NTRAL]]`, `[[Mission Control]]`
+- ✅ **Concepts:** `[[Solution Integrity]]`, `[[Launch]]`, `[[Handoff]]`
+- ✅ **Tools:** `[[SE-Assistant]]`, `[[Salesforce]]`
+- ✅ **Locations:** `[[Dublin]]`, `[[EMEA]]`
+- ❌ **Don't tag:** Generic words, acronyms explained inline, status labels
+
+## Knowledge Graph Patterns
+
+### Bidirectional Linking
+- **Create connections** between related concepts
+- **Link people to projects** they own or contribute to
+- **Link concepts to documents** that discuss them
+- **Use tags consistently** across documents for graph connectivity
+
+### Document Properties
+For key documents, include metadata:
+```markdown
+**Date:** YYYY-MM-DD  
+**Type:** [[Workshop]] - [[Operating Model]]  
+**Framework:** People | Process | Performance  
+**Participants:** [[Name One]], [[Name Two]]  
+**Related Projects:** [[Project Name]]  
+**Status:** Active / Complete / Archived
+```
+
+## Memory Bank Approach
+
+### Context Preservation
+- **Document for future self** - assume memory resets
+- **Comprehensive context** - include full background
+- **Explicit connections** - show how pieces relate
+- **Decision rationale** - explain why, not just what
+
+### Living Documents
+- **Update as context evolves** - documents are living
+- **Version awareness** - note when major updates occur
+- **Status tracking** - keep current state visible
+- **Archive completed** - move to archive when done
+
+## Section Organization
+
+### Common Section Patterns
+1. **Quick Reference / Executive Summary** - High-level overview
+2. **Context / Background** - Full background and history
+3. **Current State** - What's happening now
+4. **Analysis / Findings** - Insights and patterns
+5. **Recommendations / Next Steps** - Actionable items
+6. **Success Criteria / Metrics** - How to measure success
+7. **Related Documents** - Links to connected content
+
+### Visual Hierarchy
+- **Use emojis in headers** for quick scanning
+- **Section dividers** (`---`) between major sections
+- **Tables for structured data** (status, people, timelines)
+- **Lists for actionable items** with checkboxes
+
+## Documentation Philosophy
+
+### Comprehensive Over Brief
+- **Full context** preferred over summaries
+- **Background included** before recommendations
+- **Explicit connections** between ideas
+- **Question-driven** exploration when appropriate
+
+### Framework Thinking
+- **Design for reuse** - create frameworks others can use
+- **Scalable structures** - build systems, not one-offs
+- **Pattern recognition** - highlight patterns across documents
+- **Outcome-focused** - always include success criteria
+
+### Audience Adaptation
+- **Adjust detail level** by audience role
+- **Executive:** Strategic summary + links
+- **Manager:** Context + tactics
+- **IC:** Full detail embedded

@@ -1,0 +1,122 @@
+---
+alwaysApply: true
+description: "Eamon's tone, voice, and communication preferences"
+---
+
+# Tone & Voice Guide
+
+## Core Voice Principles
+
+### Irish Pragmatism
+- **Practical and grounded** - no dramatic urgency language
+- **Realistic timelines** - no false urgency
+- **Calm, assured tone** - confident without being press release-like
+- **Avoid American-style urgency:** Never use "CRITICAL", "HIGH PRIORITY", "🔴", "⚠️" for non-emergencies
+- **Tech work is never critical** - use: important, relevant, ongoing, pending, outstanding
+
+### Language Patterns
+- ✅ **Use:** "important", "relevant", "ongoing", "pending", "outstanding"
+- ❌ **Never use:** "CRITICAL", "HIGH PRIORITY", "urgent" (unless literally life-threatening)
+- ✅ **Use:** "This needs attention" vs "This is CRITICAL"
+- ✅ **Use:** "Let's prioritize this" vs "This is HIGH PRIORITY"
+
+## Audience Awareness
+
+### Executive Level (VP, Director, Managing Director)
+**Examples:** Deann Evans, Andre Lyver
+
+**Characteristics:**
+- **Length:** <100 lines (aim for 60-80)
+- **Reading time:** 2-minute scan
+- **Style:** Strategic summaries, high-level outcomes
+- **Detail:** Link to external resources (Vault, Google Docs)
+- **Format:** Simple tables, clear ownership, bottom-line summaries
+- **Tone:** Confident, concise, results-focused
+
+**What to include:**
+- Current status and outcomes
+- Clear ownership
+- Links to detailed resources
+- Bottom-line summary (1 sentence)
+
+**What to exclude:**
+- Detailed tactical information
+- Step-by-step processes
+- Granular metrics (unless critical)
+- Long explanations of "how"
+
+### Manager/Lead Level
+**Examples:** Fabian Muessig, Olivia Rossetti, Marta Encuentra
+
+**Characteristics:**
+- **Length:** 100-200 lines
+- **Reading time:** 5-10 minutes
+- **Style:** Strategic context + tactical details
+- **Detail:** Key context embedded, some external links
+- **Format:** Sections with context, reasoning, actionable items
+- **Tone:** Collaborative, informative, solution-oriented
+
+### IC/Collaborator Level
+**Examples:** Christen Stroh, Ben Homer, Stephen Brook
+
+**Characteristics:**
+- **Length:** 200+ lines as needed
+- **Reading time:** 15-30 minutes
+- **Style:** Actionable, detailed, execution-focused
+- **Detail:** Full context embedded (minimize link-clicking)
+- **Format:** Comprehensive sections with explicit next actions
+- **Tone:** Clear, helpful, thorough
+
+**What to include:**
+- Full context and background
+- Specific next actions with timelines
+- Explicit ownership for each item
+- Current status with granular metrics
+- All relevant details embedded
+
+## Communication Preferences
+
+### Written Over Verbal
+- **Thinks through writing** - documentation-heavy approach
+- **Async-friendly** - structured documents for async consumption
+- **Strategic discussion** - prefers deep analysis over tactical updates
+- **Direct feedback** - not conflict-avoidant, appreciates honesty
+
+### Context Requirements
+- **Full context needed** - requires big picture before action
+- **Background included** - extensive rationale and history
+- **Explicit connections** - show how ideas relate
+- **Question-driven** - often leads with questions to explore
+
+### Self-Awareness
+- **Acknowledges limitations** - openly discusses gaps and needs
+- **Compensation strategies** - explains how to work with limitations
+- **Partnership model** - recognizes need for execution-strong partners
+- **Systems thinking** - builds external structures to compensate
+
+## Positive Without Overdoing
+
+### Tone Guidelines
+- **Confident but not press release-like**
+- **Positive without being overly American**
+- **Practical and assured**
+- **No corporate speak or buzzwords**
+- **Grounded in reality**
+
+### Example Contrasts
+- ❌ "We're thrilled to announce this game-changing initiative!"
+- ✅ "This initiative addresses a key gap in our process."
+
+- ❌ "This is a critical priority that requires immediate attention!"
+- ✅ "This is important and needs attention this week."
+
+## Link Accessibility
+
+### Always Verify Links
+- ✅ **Use:** Vault pages, Google Docs/Drive, Fellow notes, Figma, company-accessible links
+- ❌ **Never use:** Local workspace file paths (e.g., `work/projects/file.md`)
+- **If no public link exists:** Note "Available from [Owner] if needed"
+
+### Link Strategy by Audience
+- **Executive:** Links for drill-down detail
+- **IC:** Embed context directly (minimize link-clicking)
