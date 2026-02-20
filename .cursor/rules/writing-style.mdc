@@ -1,3 +1,111 @@
 ---
 alwaysApply: true
+description: "Eamon's writing style patterns: structure, formatting, visual organization"
 ---
+
+# Writing Style Guide
+
+## Visual Organization & Structure
+
+### Emoji Usage
+- **Use emojis strategically** for quick visual scanning in headers and lists
+- **Common patterns:**
+  - 🎯 Strategic focus / priorities
+  - 📋 Lists / summaries
+  - ✅ Completed / working
+  - ⚠️ Warnings / concerns
+  - 🔴 High priority / urgent
+  - 🟡 Medium priority / important
+  - 🟢 Low priority / normal
+  - 🔄 In progress / ongoing
+  - 📊 Data / metrics
+  - 💡 Insights / ideas
+  - 🤝 Collaboration / stakeholders
+  - 🔧 Operational / tactical
+- **Don't use emojis in prose** - only in headers, lists, and status indicators
+- **Status indicators:** Use ✅ ⚠️ ❌ for quick status scanning
+
+### Document Structure
+- **Always use section dividers:** `---` between major sections
+- **Hierarchical headers:** Clear H1 → H2 → H3 progression
+- **Tables for organization:** Use tables for status, people, timelines, comparisons
+- **Metadata headers:** Include date, type, participants, related projects at top
+
+### Formatting Patterns
+- **Bold for emphasis:** Key terms, names, important concepts
+- **Code blocks:** For examples, code, or structured data
+- **Lists over paragraphs:** Prefer bulleted/numbered lists for scannability
+- **Status tables:** Use tables with status columns (✅ ⚠️ ❌ 🔴 🟡 🟢)
+
+## Linking & Tagging
+
+### Logseq-Style Linking
+- **Use `[[double brackets]]`** for people, projects, concepts, tools
+- **Tag on first mention** of key entities
+- **Examples:**
+  - People: `[[Fabian Muessig]]`, `[[Olivia Rossetti]]`
+  - Projects: `[[SE-NTRAL]]`, `[[Mission Control]]`
+  - Concepts: `[[Solution Integrity]]`, `[[Launch]]`, `[[Handoff]]`
+- **Cross-document references:** Use `[[work/projects/FILENAME]]` format
+
+### What to Tag
+- ✅ People you work with regularly
+- ✅ Active projects and initiatives
+- ✅ Key concepts and processes
+- ✅ Tools and systems
+- ❌ Generic words, acronyms explained inline, status labels
+
+## Document Metadata
+
+### Standard Header Format
+```markdown
+# Document Title
+
+**Date:** YYYY-MM-DD  
+**Type:** [[Meeting Notes]] / [[Project Document]] / [[Workshop Synthesis]]  
+**Participants:** [[Name One]], [[Name Two]]  
+**Related:** [[Project Name]], [[Concept]]  
+**Status:** Active / Complete / Archived
+
+---
+```
+
+## Table Patterns
+
+### Status Tables
+Use tables for:
+- Project status with owners and timelines
+- People with roles and contact info
+- Priority items with status indicators
+- Comparison views (before/after, options)
+
+**Example:**
+| Project | Status | Owner | Timeline |
+|---------|--------|-------|----------|
+| [[SE-NTRAL]] Adoption | 🟢 On track | [[Christen Stroh]] | Jan 31 target |
+
+## List Patterns
+
+### Priority Lists
+- Use emoji + priority level: `🔴 P1: Urgent`, `🟡 P2: Important`, `🟢 P3: Normal`
+- Include context: Why, time estimate, energy level
+- Status indicators: `✅ Complete`, `🔄 In Progress`, `⏳ Pending`
+
+### Action Lists
+- Format: `- [ ] Action item - Owner - Due: YYYY-MM-DD`
+- Include context and dependencies
+- Group by priority or category
+
+## Writing Principles
+
+### Clarity Over Brevity
+- **Comprehensive context** preferred over brief summaries
+- **Full background** before recommendations
+- **Explicit connections** between ideas
+- **Question-driven** exploration when appropriate
+
+### Strategic Organization
+- **Framework thinking:** Structure documents as reusable frameworks
+- **Systems approach:** Design for scalability and reuse
+- **Pattern recognition:** Highlight patterns and connections
+- **Outcome-focused:** Always include success criteria and metrics
